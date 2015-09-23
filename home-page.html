@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>My Blog</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+      <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.4&appId=1570513946503020";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+              <a class="navbar-brand" href="#"><img alt="Brand" src="img/zmelogo.png"></a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Game</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Mp3</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+        <div class="top-menu" style="margin-top: 50px;">
+            <div class="container">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#"><i class="glyphicon glyphicon-home text-primary"></i></a></li>
+                  <li><a href="#">Góc trái tim</a></li>
+                  <li><a href="#">Sáng tác</a></li>
+                  <li><a href="#">Sống</a></li>
+                  <li><a href="#">Gia đình</a></li>
+                  <li><a href="#">Games</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content container">
+            <div class="row">
+                <div class="col-xs-9" id="primary">
+                    <div class="category-posts" id="good-posts">
+                        <div class="top-bar">
+                            <h3 class="pull-left">Bài viết nổi bật</h3>
+                            <div class="clearfix"></div>
+                        </div>
+
+                        <div class="list-posts">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="post">
+                                        <div class="image-post">
+                                            <img src="img/img1.jpg" class="img-responsive">
+                                        </div>
+                                        <h3><a href="#">Vàng phai trong gió</a></h3>
+                                        <p><i class="glyphicon glyphicon-time"></i> 14:58 23/9/2015</p>
+                                        <p><i class="glyphicon glyphicon-pencil"></i> <a href="#">Trần Huy Hoàng</a> <i class="glyphicon glyphicon-book"></i> <a>Góc trái tim</a></p>
+                                        <ul class="list-unstyled info-post">
+                                            <li>260 lượt xem</li>
+                                            <li title="Thích"><i class="glyphicon glyphicon-thumbs-up"></i> 13</li>
+                                            <li title="Bình luận"><i class="glyphicon glyphicon-comment"></i> 27</li>
+                                            <li title="Chia sẻ"><i class="glyphicon glyphicon-share-alt"></i> 15</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="post">
+                                        <div class="image-post">
+                                            <img src="img/img2.jpg" class="img-responsive">
+                                        </div>
+                                        <h3><a href="#">Vàng phai trong gió</a></h3>
+                                        <p><i class="glyphicon glyphicon-time"></i> 14:58 23/9/2015</p>
+                                        <p><i class="glyphicon glyphicon-pencil"></i> <a href="#">Trần Huy Hoàng</a> <i class="glyphicon glyphicon-book"></i> <a>Góc trái tim</a></p>
+                                        <ul class="list-unstyled info-post">
+                                            <li>260 lượt xem</li>
+                                            <li title="Thích"><i class="glyphicon glyphicon-thumbs-up"></i> 13</li>
+                                            <li title="Bình luận"><i class="glyphicon glyphicon-comment"></i> 27</li>
+                                            <li title="Chia sẻ"><i class="glyphicon glyphicon-share-alt"></i> 15</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-6">
+                                    <div class="post">
+                                        <div class="image-post">
+                                            <img src="img/img3.jpg" class="img-responsive">
+                                        </div>
+                                        <h3><a href="#">Vàng phai trong gió</a></h3>
+                                        <p><i class="glyphicon glyphicon-time"></i> 14:58 23/9/2015</p>
+                                        <p><i class="glyphicon glyphicon-pencil"></i> <a href="#">Trần Huy Hoàng</a> <i class="glyphicon glyphicon-book"></i> <a>Góc trái tim</a></p>
+                                        <ul class="list-unstyled info-post">
+                                            <li>260 lượt xem</li>
+                                            <li title="Thích"><i class="glyphicon glyphicon-thumbs-up"></i> 13</li>
+                                            <li title="Bình luận"><i class="glyphicon glyphicon-comment"></i> 27</li>
+                                            <li title="Chia sẻ"><i class="glyphicon glyphicon-share-alt"></i> 15</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="post">
+                                        <div class="image-post">
+                                            <img src="img/img4.jpg" class="img-responsive">
+                                        </div>
+                                        <h3><a href="#">Vàng phai trong gió</a></h3>
+                                        <p><i class="glyphicon glyphicon-time"></i> 14:58 23/9/2015</p>
+                                        <p><i class="glyphicon glyphicon-pencil"></i> <a href="#">Trần Huy Hoàng</a> <i class="glyphicon glyphicon-book"></i> <a>Góc trái tim</a></p>
+                                        <ul class="list-unstyled info-post">
+                                            <li>260 lượt xem</li>
+                                            <li title="Thích"><i class="glyphicon glyphicon-thumbs-up"></i> 13</li>
+                                            <li title="Bình luận"><i class="glyphicon glyphicon-comment"></i> 27</li>
+                                            <li title="Chia sẻ"><i class="glyphicon glyphicon-share-alt"></i> 15</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="category-posts" id="heard-posts">
+                        <div class="top-bar">
+                            <h3 class="pull-left">Góc trái tim</h3>
+                            <h3 class="pull-right"><a href="#">Xem tất cả</a></h3>
+                            <div class="clearfix"></div>
+                        </div>
+
+                        <div class="list-posts">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="post">
+                                        <div class="image-post">
+                                            <img src="img/img5.jpg" class="img-responsive">
+                                        </div>
+                                        <h3><a href="#">Vàng phai trong gió</a></h3>
+                                        <p><i class="glyphicon glyphicon-time"></i> 14:58 23/9/2015</p>
+                                        <p><i class="glyphicon glyphicon-pencil"></i> <a href="#">Trần Huy Hoàng</a> <i class="glyphicon glyphicon-book"></i> <a>Góc trái tim</a></p>
+                                        <ul class="list-unstyled info-post">
+                                            <li>260 lượt xem</li>
+                                            <li title="Thích"><i class="glyphicon glyphicon-thumbs-up"></i> 13</li>
+                                            <li title="Bình luận"><i class="glyphicon glyphicon-comment"></i> 27</li>
+                                            <li title="Chia sẻ"><i class="glyphicon glyphicon-share-alt"></i> 15</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="post">
+                                        <div class="image-post">
+                                            <img src="img/img6.jpg" class="img-responsive">
+                                        </div>
+                                        <h3><a href="#">Vàng phai trong gió</a></h3>
+                                        <p><i class="glyphicon glyphicon-time"></i> 14:58 23/9/2015</p>
+                                        <p><i class="glyphicon glyphicon-pencil"></i> <a href="#">Trần Huy Hoàng</a> <i class="glyphicon glyphicon-book"></i> <a>Góc trái tim</a></p>
+                                        <ul class="list-unstyled info-post">
+                                            <li>260 lượt xem</li>
+                                            <li title="Thích"><i class="glyphicon glyphicon-thumbs-up"></i> 13</li>
+                                            <li title="Bình luận"><i class="glyphicon glyphicon-comment"></i> 27</li>
+                                            <li title="Chia sẻ"><i class="glyphicon glyphicon-share-alt"></i> 15</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-6">
+                                    <div class="post">
+                                        <div class="image-post">
+                                            <img src="img/img7.jpg" class="img-responsive">
+                                        </div>
+                                        <h3><a href="#">Vàng phai trong gió</a></h3>
+                                        <p><i class="glyphicon glyphicon-time"></i> 14:58 23/9/2015</p>
+                                        <p><i class="glyphicon glyphicon-pencil"></i> <a href="#">Trần Huy Hoàng</a> <i class="glyphicon glyphicon-book"></i> <a>Góc trái tim</a></p>
+                                        <ul class="list-unstyled info-post">
+                                            <li>260 lượt xem</li>
+                                            <li title="Thích"><i class="glyphicon glyphicon-thumbs-up"></i> 13</li>
+                                            <li title="Bình luận"><i class="glyphicon glyphicon-comment"></i> 27</li>
+                                            <li title="Chia sẻ"><i class="glyphicon glyphicon-share-alt"></i> 15</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="post">
+                                        <div class="image-post">
+                                            <img src="img/img8.jpg" class="img-responsive">
+                                        </div>
+                                        <h3><a href="#">Vàng phai trong gió</a></h3>
+                                        <p><i class="glyphicon glyphicon-time"></i> 14:58 23/9/2015</p>
+                                        <p><i class="glyphicon glyphicon-pencil"></i> <a href="#">Trần Huy Hoàng</a> <i class="glyphicon glyphicon-book"></i> <a>Góc trái tim</a></p>
+                                        <ul class="list-unstyled info-post">
+                                            <li>260 lượt xem</li>
+                                            <li title="Thích"><i class="glyphicon glyphicon-thumbs-up"></i> 13</li>
+                                            <li title="Bình luận"><i class="glyphicon glyphicon-comment"></i> 27</li>
+                                            <li title="Chia sẻ"><i class="glyphicon glyphicon-share-alt"></i> 15</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="category-posts" id="invent-posts">
+                        <div class="top-bar">
+                            <h3 class="pull-left">Sáng tác</h3>
+                            <h3 class="pull-right"><a href="#">Xem tất cả</a></h3>
+                            <div class="clearfix"></div>
+                        </div>
+
+                        <div class="list-posts">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="post">
+                                        <div class="image-post">
+                                            <img src="img/img9.jpg" class="img-responsive">
+                                        </div>
+                                        <h3><a href="#">Vàng phai trong gió</a></h3>
+                                        <p><i class="glyphicon glyphicon-time"></i> 14:58 23/9/2015</p>
+                                        <p><i class="glyphicon glyphicon-pencil"></i> <a href="#">Trần Huy Hoàng</a> <i class="glyphicon glyphicon-book"></i> <a>Góc trái tim</a></p>
+                                        <ul class="list-unstyled info-post">
+                                            <li>260 lượt xem</li>
+                                            <li title="Thích"><i class="glyphicon glyphicon-thumbs-up"></i> 13</li>
+                                            <li title="Bình luận"><i class="glyphicon glyphicon-comment"></i> 27</li>
+                                            <li title="Chia sẻ"><i class="glyphicon glyphicon-share-alt"></i> 15</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="post">
+                                        <div class="image-post">
+                                            <img src="img/img10.jpg" class="img-responsive">
+                                        </div>
+                                        <h3><a href="#">Vàng phai trong gió</a></h3>
+                                        <p><i class="glyphicon glyphicon-time"></i> 14:58 23/9/2015</p>
+                                        <p><i class="glyphicon glyphicon-pencil"></i> <a href="#">Trần Huy Hoàng</a> <i class="glyphicon glyphicon-book"></i> <a>Góc trái tim</a></p>
+                                        <ul class="list-unstyled info-post">
+                                            <li>260 lượt xem</li>
+                                            <li title="Thích"><i class="glyphicon glyphicon-thumbs-up"></i> 13</li>
+                                            <li title="Bình luận"><i class="glyphicon glyphicon-comment"></i> 27</li>
+                                            <li title="Chia sẻ"><i class="glyphicon glyphicon-share-alt"></i> 15</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-6">
+                                    <div class="post">
+                                        <div class="image-post">
+                                            <img src="img/img11.jpg" class="img-responsive">
+                                        </div>
+                                        <h3><a href="#">Vàng phai trong gió</a></h3>
+                                        <p><i class="glyphicon glyphicon-time"></i> 14:58 23/9/2015</p>
+                                        <p><i class="glyphicon glyphicon-pencil"></i> <a href="#">Trần Huy Hoàng</a> <i class="glyphicon glyphicon-book"></i> <a>Góc trái tim</a></p>
+                                        <ul class="list-unstyled info-post">
+                                            <li>260 lượt xem</li>
+                                            <li title="Thích"><i class="glyphicon glyphicon-thumbs-up"></i> 13</li>
+                                            <li title="Bình luận"><i class="glyphicon glyphicon-comment"></i> 27</li>
+                                            <li title="Chia sẻ"><i class="glyphicon glyphicon-share-alt"></i> 15</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="post">
+                                        <div class="image-post">
+                                            <img src="img/img4.jpg" class="img-responsive">
+                                        </div>
+                                        <h3><a href="#">Vàng phai trong gió</a></h3>
+                                        <p><i class="glyphicon glyphicon-time"></i> 14:58 23/9/2015</p>
+                                        <p><i class="glyphicon glyphicon-pencil"></i> <a href="#">Trần Huy Hoàng</a> <i class="glyphicon glyphicon-book"></i> <a>Góc trái tim</a></p>
+                                        <ul class="list-unstyled info-post">
+                                            <li>260 lượt xem</li>
+                                            <li title="Thích"><i class="glyphicon glyphicon-thumbs-up"></i> 1</li>
+                                            <li title="Bình luận"><i class="glyphicon glyphicon-comment"></i> 27</li>
+                                            <li title="Chia sẻ"><i class="glyphicon glyphicon-share-alt"></i> 15</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="category-posts" id="life-posts">
+                        <div class="top-bar">
+                            <h3 class="pull-left">Sống</h3>
+                            <h3 class="pull-right"><a href="#">Xem tất cả</a></h3>
+                            <div class="clearfix"></div>
+                        </div>
+
+                        <div class="list-posts">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="post">
+                                        <div class="image-post">
+                                            <img src="img/img1.jpg" class="img-responsive">
+                                        </div>
+                                        <h3><a href="#">Vàng phai trong gió</a></h3>
+                                        <p><i class="glyphicon glyphicon-time"></i> 14:58 23/9/2015</p>
+                                        <p><i class="glyphicon glyphicon-pencil"></i> <a href="#">Trần Huy Hoàng</a> <i class="glyphicon glyphicon-book"></i> <a>Góc trái tim</a></p>
+                                        <ul class="list-unstyled info-post">
+                                            <li>260 lượt xem</li>
+                                            <li title="Thích"><i class="glyphicon glyphicon-thumbs-up"></i> 13</li>
+                                            <li title="Bình luận"><i class="glyphicon glyphicon-comment"></i> 27</li>
+                                            <li title="Chia sẻ"><i class="glyphicon glyphicon-share-alt"></i> 15</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="post">
+                                        <div class="image-post">
+                                            <img src="img/img2.jpg" class="img-responsive">
+                                        </div>
+                                        <h3><a href="#">Vàng phai trong gió</a></h3>
+                                        <p><i class="glyphicon glyphicon-time"></i> 14:58 23/9/2015</p>
+                                        <p><i class="glyphicon glyphicon-pencil"></i> <a href="#">Trần Huy Hoàng</a> <i class="glyphicon glyphicon-book"></i> <a>Góc trái tim</a></p>
+                                        <ul class="list-unstyled info-post">
+                                            <li>260 lượt xem</li>
+                                            <li title="Thích"><i class="glyphicon glyphicon-thumbs-up"></i> 13</li>
+                                            <li title="Bình luận"><i class="glyphicon glyphicon-comment"></i> 27</li>
+                                            <li title="Chia sẻ"><i class="glyphicon glyphicon-share-alt"></i> 15</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-6">
+                                    <div class="post">
+                                        <div class="image-post">
+                                            <img src="img/img3.jpg" class="img-responsive">
+                                        </div>
+                                        <h3><a href="#">Vàng phai trong gió</a></h3>
+                                        <p><i class="glyphicon glyphicon-time"></i> 14:58 23/9/2015</p>
+                                        <p><i class="glyphicon glyphicon-pencil"></i> <a href="#">Trần Huy Hoàng</a> <i class="glyphicon glyphicon-book"></i> <a>Góc trái tim</a></p>
+                                        <ul class="list-unstyled info-post">
+                                            <li>260 lượt xem</li>
+                                            <li title="Thích"><i class="glyphicon glyphicon-thumbs-up"></i> 13</li>
+                                            <li title="Bình luận"><i class="glyphicon glyphicon-comment"></i> 27</li>
+                                            <li title="Chia sẻ"><i class="glyphicon glyphicon-share-alt"></i> 15</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="post">
+                                        <div class="image-post">
+                                            <img src="img/img4.jpg" class="img-responsive">
+                                        </div>
+                                        <h3><a href="#">Vàng phai trong gió</a></h3>
+                                        <p><i class="glyphicon glyphicon-time"></i> 14:58 23/9/2015</p>
+                                        <p><i class="glyphicon glyphicon-pencil"></i> <a href="#">Trần Huy Hoàng</a> <i class="glyphicon glyphicon-book"></i> <a>Góc trái tim</a></p>
+                                        <ul class="list-unstyled info-post">
+                                            <li>260 lượt xem</li>
+                                            <li title="Thích"><i class="glyphicon glyphicon-thumbs-up"></i> 13</li>
+                                            <li title="Bình luận"><i class="glyphicon glyphicon-comment"></i> 27</li>
+                                            <li title="Chia sẻ"><i class="glyphicon glyphicon-share-alt"></i> 15</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3" id="sidebar">
+
+                    <div class="box-sidbar" id="new-posts">
+                        <div class="content-box-side-bar">
+                            <div class="fb-page" data-href="https://www.facebook.com/H%E1%BB%99i-nh%E1%BB%AFng-ng%C6%B0%E1%BB%9Di-y%C3%AAu-th%C3%ADch-b%C3%B3ng-%C4%91%C3%A1-Ngo%E1%BA%A1i-H%E1%BA%A1ng-Anh-1522818054641544/timeline/?ref=hl" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"></div>
+                        </div>
+                    </div>
+
+                    <div class="box-sidbar" id="new-posts">
+                        <div class="top-box-sidebar">
+                            <h3>Bài viết mới</h3>
+                        </div>
+                        <div class="content-box-side-bar">
+                            <ul class="list-posts list-unstyled">
+                                <li class="post">
+                                    <h3><a href="#">Mưa buồn chiều cuối thu</a></h3>
+                                    <p><i class="glyphicon glyphicon-time"></i> 10:20 20/9/2015</p>
+                                    <p><i class="glyphicon glyphicon-pencil"></i> <a href="#">Trần Huy Hoàng</a></p>
+                                </li>
+                                <li class="post">
+                                    <h3><a href="#">Chuyến đi bão tố</a></h3>
+                                    <p><i class="glyphicon glyphicon-time"></i> 10:20 20/9/2015</p>
+                                    <p><i class="glyphicon glyphicon-pencil"></i> <a href="#">Trần Huy Hoàng</a></p>
+                                </li>
+                                <li class="post">
+                                    <h3><a href="#">Gió lướt giữa trời mưa</a></h3>
+                                    <p><i class="glyphicon glyphicon-time"></i> 10:20 20/9/2015</p>
+                                    <p><i class="glyphicon glyphicon-pencil"></i> <a href="#">Trần Huy Hoàng</a></p>
+                                </li>
+                                <li class="post">
+                                    <h3><a href="#">Nhớ mùa thu năm ấy</a></h3>
+                                    <p><i class="glyphicon glyphicon-time"></i> 10:20 20/9/2015</p>
+                                    <p><i class="glyphicon glyphicon-pencil"></i> <a href="#">Trần Huy Hoàng</a></p>
+                                </li>
+                                <li class="post">
+                                    <h3><a href="#">Cô gái của tôi</a></h3>
+                                    <p><i class="glyphicon glyphicon-time"></i> 10:20 20/9/2015</p>
+                                    <p><i class="glyphicon glyphicon-pencil"></i> <a href="#">Trần Huy Hoàng</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="box-sidbar" id="new-videos">
+                        <div class="top-box-sidebar">
+                            <h3>Video mới</h3>
+                        </div>
+                        <div class="content-box-side-bar">
+                            <div class="frame-video">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box-sidbar" id="new-album-photo">
+                        <div class="top-box-sidebar">
+                            <h3>Album ảnh mới</h3>
+                        </div>
+                        <div class="content-box-side-bar">
+                            <ul class="list-posts list-unstyled">
+                                <li class="post">
+                                    <div class="image-post">
+                                        <img src="img/img8.jpg" class="img-responsive">
+                                    </div>
+                                    <h3><a href="#">Ngẫu hứng ngày thu</a></h3>
+                                    <p><i class="glyphicon glyphicon-time"></i> 10:20 20/9/2015</p>
+                                </li>
+                                <li class="post">
+                                    <div class="image-post">
+                                        <img src="img/img8.jpg" class="img-responsive">
+                                    </div>
+                                    <h3><a href="#">Lặng lẽ</a></h3>
+                                    <p><i class="glyphicon glyphicon-time"></i> 10:20 20/9/2015</p>
+                                </li>
+                                <li class="post">
+                                    <div class="image-post">
+                                        <img src="img/img8.jpg" class="img-responsive">
+                                    </div>
+                                    <h3><a href="#">Gọi mưa về trong đêm</a></h3>
+                                    <p><i class="glyphicon glyphicon-time"></i> 10:20 20/9/2015</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="footer container">
+                <div class="row">
+                    <div class="col-xs-10">
+                        <ul class="nav nav-pills">
+                            <li><a href="#">Developers</a></li>
+                            <li><a href="#">Góp ý</a></li>
+                            <li><a href="#">Hướng dẫn</a></li>
+                        </ul>
+                        <p>&COPY; copyright by Tran Huy Hoang</p>
+                        <p>Đơn vị chủ quản: Heroku</p>
+                        <p>Giấy phép: none</p>
+                    </div>
+                    <div class="col-xs-2">
+                        <i class="glyphicon glyphicon-upload text-primary"></i>
+                    </div>
+                </div>
+           </div>
+    </body>
+</html>

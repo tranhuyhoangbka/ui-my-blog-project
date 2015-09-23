@@ -1,0 +1,31 @@
+body{
+    background: #EEEEEE;
+}
+.navbar-brand{
+margin: -10px 0px 0px 0px;
+}
+.navbar-brand img{
+    margin-left: 120px;
+}
+.navbar-right{
+margin-right: 150px;
+}
+.navbar-right li a{
+font-weight: bold;
+color: #fff !important;
+}
+.navbar-right li a:hover{
+color: #C6C4C4 !important;
+}
+
+.top-menu .nav-tabs{
+background: #d3e5f4 !important;
+border-bottom: 2px solid #B2D8F7;
+border-radius: 6px;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+}
+
+.nav-tabs .active{
+    background: #E8F2F9 !important;  
+}
